@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>צילום עם בינה – לומדים יסודות צילום</title>
+  <meta name="description" content="צילום עם בינה: אפליקציה ללימוד יסודות הצילום במצלמת SLR: חשיפה, תריס, צמצם, ISO, מדידת אור, פוקוס, קומפוזיציה ואור – עם מצלמה וירטואלית, בחנים ומשימות שטח.">
+  <meta name="theme-color" content="#2A3133">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📷</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Secular+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#app">דילוג לתוכן</a>
+  <header class="topbar">
+    <a class="brand" href="#/" aria-label="צילום עם בינה – דף הבית">
+      <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true">
+        <rect x="2" y="8" width="28" height="20" rx="4" fill="currentColor" opacity=".9"/>
+        <rect x="10" y="4" width="12" height="6" rx="2" fill="currentColor" opacity=".9"/>
+        <circle cx="16" cy="18" r="7" fill="var(--lcd-amber)"/>
+        <circle cx="16" cy="18" r="3.5" fill="var(--lcd-bg)"/>
+      </svg>
+      <span>צילום עם בינה</span>
+    </a>
+    <nav class="nav" aria-label="ניווט ראשי">
+      <a href="#/lessons">שיעורים</a>
+      <a href="#/sim">מצלמה וירטואלית</a>
+      <a href="#/missions">משימות שטח</a>
+      <a href="#/review">כדאי לחזור <span class="badge" hidden>0</span></a>
+      <a href="#/exam">מבחן</a>
+      <a href="#/glossary">מילון</a>
+      <a href="#/settings">הגדרות</a>
+    </nav>
+    <div class="size" role="group" aria-label="גודל טקסט">
+      <button type="button" data-size-btn="m" aria-label="טקסט רגיל">א</button>
+      <button type="button" data-size-btn="l" aria-label="טקסט גדול">א+</button>
+      <button type="button" data-size-btn="xl" aria-label="טקסט גדול מאוד">א++</button>
+    </div>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="foot">
+    <p>צילום עם בינה – מבוסס על חומרי קורס הצילום. ההתקדמות נשמרת רק במכשיר הזה.</p>
+  </footer>
+  <noscript><p style="padding:2rem">כדי להשתמש באפליקציה צריך להפעיל JavaScript.</p></noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
